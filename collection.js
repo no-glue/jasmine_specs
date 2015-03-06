@@ -15,3 +15,4 @@ Collection.prototype.pop = function() {
     if(!this.collection.length) return;
     this.collection.pop();
 };
+module.exports = Collection;
